@@ -32,6 +32,8 @@ public class Operations {
 	public static void directedGraphOperations(){
 		DirectedGraph graph = addNodesDirectedGraph();
 		graph.printGraph(graph);
+		BFSDirectedGraph.BFS(2, graph);
+		DFSDirectedGraph.DFSUtil(2, graph);
 	}
 	
 	public static void main(String[] args) {
