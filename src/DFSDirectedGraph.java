@@ -1,4 +1,7 @@
-
+//visit 1st node to the connecting node and go deeper
+//Detecting cycle in a graph
+//Path Finding
+///Topological Sorting is mainly used for scheduling jobs from the given dependencies among jobs
 public class DFSDirectedGraph {
 
 	public static void DFSUtil(int src, DirectedGraph graph){
